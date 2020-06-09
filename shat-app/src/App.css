@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+textarea{
+  display: block;
+  width: 300px;
+  margin: 0 auto;
+}
+.messages-box{
+  display: block;
+  width: 300px;
+  margin: 0 auto;
+  padding: 15px;
+  border: 1px solid #999;
+  text-align: left;
+  height: auto;
+  max-height: calc(100vh - 300px);
+  overflow-y: scroll;
+}
+.message {
+  padding: 5px 0;
+}
+.author-name{
+  color: chocolate;
+  margin-bottom: 5px
+}
+.author-name span{
+  color: forestgreen;
+}
+.message-item{
+  margin-top: 5px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
